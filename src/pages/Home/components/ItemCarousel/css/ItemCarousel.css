@@ -1,0 +1,79 @@
+.itemCarouselLink{
+  text-decoration: none;
+  color: #b7b7b79a;
+  font-family: Ubuntu, Sans serif;
+}
+
+.itemCarousel {
+  width: 200px;
+}
+
+.bgItemCarousel {
+  flex-direction: column;
+}
+
+.imgItemCarousel {
+  padding: 12px;
+  height: 120px;    
+}
+
+@media screen and (min-width: 482px) and (max-width: 715px) {
+  .itemCarousel {
+      width: 438px;
+      height: 150px;
+  }
+  .bgItemCarousel {
+      flex-direction: row;
+      align-items: center;
+      height: 74%;
+  }
+  .imgItemCarousel {
+      height: 100px;    
+  }
+  .categoryItemCarousel, .stockItemCarousel, .priceItemCarousel {
+      font-size: .8rem;
+  }
+  .btnItemCarousel {
+      width: 80px;
+  }
+}
+
+@media screen and (min-width: 716px) and (max-width: 1274px) {
+  .itemCarousel {
+      width: 658px;
+      height: 200px;
+  }
+  .bgItemCarousel {
+      flex-direction: row;
+      align-items: center;
+      height: 80%;
+  }
+  .imgItemCarousel {
+      height: 170px;    
+  }
+  .categoryItemCarousel, .stockItemCarousel, .priceItemCarousel {
+      font-size: 1rem;
+  }
+  .priceItemCarouselSpan {
+      font-size: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 1275px) {
+  .itemCarousel {
+      height: 620px;
+      width: 290px;
+  }
+  .bgItemCarousel {
+      height: 94%;
+  }
+  .titleItemCarousel {
+      font-size: 1.5rem;
+  }
+  .imgItemCarousel {
+      height: fit-content;   
+  }
+  .priceItemCarouselSpan {
+      font-size: 1.6rem;
+  }
+}

@@ -1,0 +1,28 @@
+.listContainer { 
+  min-height: calc(100vh - 276.28px);
+  flex-direction: column;
+}
+
+@media screen and (min-width: 390px) and (max-width: 599px) {
+  .listContainer { 
+      min-height: calc(100vh - 258.28px);
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width:899px) {
+  .listContainer { 
+      min-height: calc(100vh - 224.67px);
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .listContainer { 
+      min-height: calc(100vh - 220.53px);
+  }
+}
+
+@media screen and (min-width:1275px) {
+  .listContainer {
+      flex-direction: row;
+  }
+} 

@@ -1,0 +1,51 @@
+.formContainer {
+  min-height: calc(100vh - 323.28px);
+}
+
+.orderForm {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 250px;
+  background-color: #282828;
+  padding: 16px;
+  border-radius: 6px;
+}
+
+.orderForm div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 12px;
+}
+
+@media screen and (min-width: 390px) and (max-width: 599px) {
+  .formContainer {
+      min-height: calc(100vh - 302.28px);
+  }
+  .orderForm {
+      max-width: 250px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 899px) {
+  .formContainer {
+      min-height: calc(100vh - 268.67px);
+  }
+  .orderForm {
+      max-width: 300px;
+  }
+  
+}
+
+@media screen and (min-width: 900px) {
+  .formContainer {
+      min-height: calc(100vh -  266.53px);
+  }
+   .orderForm {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 720px;
+    justify-content: center;
+  }
+}

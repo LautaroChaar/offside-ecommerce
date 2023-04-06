@@ -1,0 +1,15 @@
+.itemDetaiImg {
+  height: 150px;
+}
+
+@media screen and (min-width: 600px) and (max-width: 732px) {
+  .itemDetaiImg {
+      height: 150px;
+  }
+}
+
+@media screen and (min-width: 733px) {
+  .itemDetaiImg {
+      height: 150px;
+  }
+}

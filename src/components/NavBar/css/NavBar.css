@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Paprika&family=Roboto:wght@100;400;700&display=swap');
+
+.brand, .categoryName  {
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.categoryName {
+    font-family: Ubuntu, Sans serif;
+    font-size: 1.3rem;
+    color: #b7b7b7;
+}
+
+.brand {
+    font-family: 'Paprika', cursive;
+    font-size: 2rem;
+    color: #f6b3dc;
+}
+
+.buttonLogo2Container {
+    display: none;
+}
+
+.logo {
+    width: 60px;
+    padding-top: 8px;
+}
+
+.categoryMenu {
+    text-decoration: none;
+    color: #b7b7b7;
+    font-family: Ubuntu, Sans serif;
+    width: 100%;
+    text-align: center;
+}
+
+.categoryMenu:hover {
+    color: #f6b3dc;
+}
+
+@media screen and (max-width:899px) {
+    .buttonLogoContainer {
+        display: none;
+    }
+    .buttonLogo2Container {
+        display: contents;
+    }
+    .brand {
+        font-size: 1.6rem;
+    }
+    .phoneLogo {
+        width: 46px;
+        padding-top: 8px;
+    }
+} 

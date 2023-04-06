@@ -1,0 +1,21 @@
+.carouselContainer {
+  max-width: 214px;
+} 
+
+@media screen and (min-width: 482px) and (max-width: 715px) {
+  .carouselContainer {
+      max-width: 447px;
+  }
+}
+
+@media screen and (min-width: 716px) and (max-width: 1274px) {
+  .carouselContainer {
+      max-width: 666px;
+  }
+}
+
+@media screen and (min-width: 1275px) {
+  .carouselContainer {
+      max-width: 300px;
+  }
+}

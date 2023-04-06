@@ -1,0 +1,31 @@
+.loadingContainer {
+  min-height: calc(100vh - 363.28px);
+}
+
+.loadingLogo {
+  width: 150px;
+}
+
+@media screen and (min-width: 390px) and (max-width: 599px) {
+  .loadingContainer {
+      min-height: calc(100vh - 342.28px);
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width:899px) {
+  .loadingContainer {
+      min-height: calc(100vh - 308.67px);
+  }
+  .loadingLogo {
+      width: 250px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .loadingContainer {
+      min-height: calc(100vh - 306.53px);
+  }
+  .loadingLogo {
+      width: 250px;
+  }
+}
