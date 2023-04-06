@@ -7,12 +7,12 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAMNKRVEPx7025fnaG5QMc3-IJTWxA1kl4",
-  authDomain: "off-side-proyect.firebaseapp.com",
-  projectId: "off-side-proyect",
-  storageBucket: "off-side-proyect.appspot.com",
-  messagingSenderId: "1068554320571",
-  appId: "1:1068554320571:web:660ac6544f6e39d585c79e"
+  apiKey: "AIzaSyB1qAi5NSM9yiJSt45wDHV47g1cUSWas30",
+  authDomain: "offside-3e506.firebaseapp.com",
+  projectId: "offside-3e506",
+  storageBucket: "offside-3e506.appspot.com",
+  messagingSenderId: "439777658852",
+  appId: "1:439777658852:web:f236ff9a3d024db91569f1"
 };
 
 initializeApp(firebaseConfig);

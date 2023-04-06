@@ -4,7 +4,7 @@ This project was created for Coderhouse's 'React Js' course.
 
 # Deploy with Firebase
 
-https://off-side-proyect.web.app/
+https://offside-3e506.web.app/
 
 # Applied technolologies :
 
